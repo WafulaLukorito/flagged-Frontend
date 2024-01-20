@@ -1,0 +1,42 @@
+/* FlaggedWordsChecker.css */
+.flagged-words-checker-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    width: 100%; /* Full width */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.results {
+    text-align: left;
+    width: 100%; 
+    word-wrap: break-word;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
