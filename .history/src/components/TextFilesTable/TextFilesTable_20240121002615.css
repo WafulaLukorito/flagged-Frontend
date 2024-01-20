@@ -1,12 +1,12 @@
 .table-container {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
 }
 
 table {
     width: 60%;
-    margin: 0 auto; 
+    margin: 0 auto; /* Centers the table horizontally */
     border-collapse: collapse;
 }
 
@@ -21,9 +21,4 @@ th, td {
 
 th {
     background-color: #f4f4f4;
-}
-
-h2 {
-    text-align: center;
-    margin-bottom: 20px;
 }
