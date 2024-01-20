@@ -1,8 +1,7 @@
 
 // import './App.css';
 import FileUpload from './components/FileUpload/FileUpload'
-import TextFilesTable from './components/TextFilesTable/TextFilesTable';
-
+import TextFilesGrid from './components/TextFilesGrid/TextFileGrid';
 
 function App() {
   return (
@@ -11,7 +10,7 @@ function App() {
       </header>
       <h1>Upload a File</h1>
 <FileUpload/>
-<TextFilesTable/>
+<TextFilesGrid/>
 
     </div>
   );
