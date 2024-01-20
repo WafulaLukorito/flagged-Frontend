@@ -1,0 +1,20 @@
+
+
+.app-introduction {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.app-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.app-credits {
+    margin-top: 20px;
+    font-style: italic;
+    color: #555;
+}
